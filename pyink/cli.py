@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
 
-from pyink import Story
+from .engine.story import Story
 
 
 def play_story(json_path: Path):
@@ -48,7 +47,3 @@ def main():
         raise SystemExit(f"File not found: {args.json_path}")
 
     play_story(args.json_path)
-
-
-if __name__ == "__main__":
-    main()

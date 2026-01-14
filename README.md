@@ -51,7 +51,7 @@ story = Story(text)
 A simple CLI player is included:
 
 ```bash
-python play_ink.py path/to/story.ink.json
+pyink path/to/story.ink.json
 ```
 
 It prints output, lists choices, and lets you pick by number.
