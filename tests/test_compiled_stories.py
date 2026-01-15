@@ -4,11 +4,11 @@ from pathlib import Path
 
 import pytest
 
-from pyink import Story
-from pyink.engine.container import Container
-from pyink.engine.divert import Divert
-from pyink.engine.error import ErrorType
-from pyink.engine.object import InkObject
+from inkpython import Story
+from inkpython.engine.container import Container
+from inkpython.engine.divert import Divert
+from inkpython.engine.error import ErrorType
+from inkpython.engine.object import InkObject
 
 
 ROOT = Path(__file__).resolve().parent

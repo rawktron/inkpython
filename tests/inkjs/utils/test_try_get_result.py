@@ -1,4 +1,4 @@
-from pyink.engine.try_get_result import try_get_value_from_map, try_parse_float, try_parse_int
+from inkpython.engine.try_get_result import try_get_value_from_map, try_parse_float, try_parse_int
 
 
 def test_try_get_value_from_map_found():

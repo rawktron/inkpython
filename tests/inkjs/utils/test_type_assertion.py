@@ -1,6 +1,6 @@
 import pytest
 
-from pyink.engine.type_assertion import (
+from inkpython.engine.type_assertion import (
     as_boolean_or_throws,
     as_number_or_throws,
     as_or_null,

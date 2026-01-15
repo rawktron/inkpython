@@ -1,7 +1,7 @@
 import math
 import pytest
 
-from pyink.engine.simple_json import SimpleJson
+from inkpython.engine.simple_json import SimpleJson
 
 
 def test_writer_inner_hierarchy():

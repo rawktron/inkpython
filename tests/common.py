@@ -3,8 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from pyink import Story
-from pyink.engine.error import ErrorType
+from inkpython import Story
+from inkpython.engine.error import ErrorType
 
 ROOT = Path(__file__).resolve().parent
 INKFILES_DIR = ROOT / "inkfiles" / "compiled"

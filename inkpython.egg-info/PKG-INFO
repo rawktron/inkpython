@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: inkpython
+Version: 0.1.0
+Summary: Python runtime for Ink stories.
+Author: Pete Garcin
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/rawktron/inkpython
+Keywords: ink,interactive-fiction,narrative
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # Inkpython
 
 Python runtime for ink (ported from inkjs) that loads compiled `.ink.json` files and plays them in pure Python.
